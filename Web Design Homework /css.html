@@ -1,85 +1,42 @@
-navbar-brand{
-    margin-left: 10px;
-    padding: 10px;
-    background-color: rgb(44, 46, 46);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-  }
-  
-  
-  h3{
-    color: lightskyblue;
-    padding: 10px;
-  }
-  
-  .img-thumbnail{
-    padding:5px;
-    margin:5px;
-    border: solid black;
-  }
-  
-  
-  
-  
-  p{
-   color:white;
-   font-size: large;
-   padding:10px;
-  }
-  
-  body {
-    background: #FFFFFF;
-      color:#000000;
-      font-family:Georgia, sans-serif;
-      line-height:21px;
-      font-size:13px
-  }
-  .col-md-12{
-    background-color: gray;
-    padding-top: 20px;
-    padding-bottom:40px;
-  }
-  
-  
-  .highlight{
-    border: 3px solid rgb(188, 233, 85);
-  }
-  
-  .navbar{
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-right:40px;
-    background-color:rgb(44, 46, 46);
-  }
-  
-  .nav-item.dropdown.show {
-    background-color: #ddd;
-  }
-  
-  .dropdown-menu {
-    margin: 0;
-  }
-  
-  
-  .content {
-    padding-top: 50px;
-    padding-bottom: 80px;
-    overflow: hidden;
-  }
-  
-  .content.bg-white {
-    margin-top: 15px;
-  }
-  
-  @media(max-width:767px){
-    .navbar.bg-dark{
-        background-color: rgb(44, 46, 46)!important;    
-    }
-  
-    .navbar-collapse{
-        background-color: #f8f9fa;
-    }
-    .navbar{
-        padding:inherit;
-    }
-  }
+.navbar{
+  text-align: center;
+  padding: 0;
+  border-bottom: 4px solid black;
+  height: 60px;
+}
+
+.navbar a{
+  padding: 10px;
+  margin: 5px 0 0 0;
+  float: left;
+}
+
+.navbar-toggler {
+  margin: 20px 10px 0 10px;
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+
+.navbar-brand{
+  margin-left: 34px;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+}
+.bg-orange{
+  background-color: yellow;
+}
+.navbar-nav{
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+}
+.nav-item{
+  transition: 0.3s;
+  padding: 32px 20px 22px 0;
+  margin: 5px 0 0 40px;
+}
+.nav-item:hover{
+  background: blue;
+}
